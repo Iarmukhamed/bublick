@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header {
+    position: fixed;
+    background-color: rgb(168, 208, 190);
+    margin-top: 10px;
+    padding: 25px 20px;
+    opacity: 0.9;
+}
+.form {
+    padding: 75px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+main{
+    background-color: rgb(123, 127, 150);
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0,);
+    border-radius: 10px;
+}
+article{
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 24px;
+    text-align: center;
+}
+img{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.btn {
+    padding: 20px;
+}
+.editMode {
+    display: none;
+    width: 1000px;
+}
+.normalMode {
+    display: none;
+}
+.active {
+    display: block;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+.category {
+    background-color: #4f3e3e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+}
+/* .item { */
+    /* width: calc(50% - 10px); */
+    /* height: 100px; */
+    /* margin: 5px; */
+    /* background-color: gray; */
+    /* display: inline-block; */
+/* } */
+/* .user { */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 30%; */
+    /* padding: 20px; */
+    /* margin: 10px; */
+    /* border-radius: 8px; */
+    /* background-color: rgb(183, 202, 198); */
+    /* font-size: 24px; */
+/* } */
+/* img { */
+    /* display: block; */
+    /* width: 30%; */
+    /* margin-left: 10px; */
+/* } */
+/* p { */
+   /* color: rgb(12, 24, 34); */
+/* } */
+/* .radius { */
+    /* width: 5px; */
+    /* height: 5px; */
+    /* margin-top: 100px; */
+    /* border-radius: 50%; */
+/* } */
+/* .green { */
+    /* background-color: green; */
+/* } */
+/* .red { */
+    /* background-color: red; */
+/* } */
+/* .g { */
+    /* margin-top: 100px; */
+/* } */
+/* .s { */
+    /* margin-top: 70px; */
+/* } */
